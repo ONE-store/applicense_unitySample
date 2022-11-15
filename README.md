@@ -1,20 +1,18 @@
 # ONEstore Application License Checker Unity Sample
-
-***
 Sample applications for Application License Checker.
 
 [ALC v2 SDK](https://github.com/ONE-store/app_license_checker) is now available for Java.
 
-## How to use ALC v2 SDK for unity?
+### How to use ALC v2 SDK for unity?
 First, clone the integrated OneStore SDK Unity Package. [Link](https://github.com/ONE-store/unity_plugins)
 <br/>After then, follow the guide for unity [Guide](https://dev.onestore.co.kr/wiki/ko/doc/unity-alc-sdk-v2-39945604.html) 
 
-## Caution
+### Caution
 These are required libraries for using check licenses.
 * com.onestorecorp.core
 * com.onestorecorp.auth
 
-## Use a proguard
+### Use a proguard
 
 It's already obfuscated and in aar,so add the package to the proguard rules.
 ```
@@ -30,7 +28,7 @@ It's already obfuscated and in aar,so add the package to the proguard rules.
 
 ```
 
-## Use Licensing Module
+### Use Licensing Module
 ```csharp
 using OneStore.Alc;
 
