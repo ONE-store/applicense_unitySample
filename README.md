@@ -5,7 +5,7 @@ Sample applications for Application License Checker.
 
 ### How to use ALC v2 SDK for unity?
 First, clone the integrated OneStore SDK Unity Package. [Link](https://github.com/ONE-store/unity_plugins)
-<br/>After then, follow the guide for unity [Guide](https://dev.onestore.co.kr/wiki/ko/doc/unity-alc-sdk-v2-39945604.html) 
+<br/>After then, follow the guide for unity **Guide** [for Korean](https://dev.onestore.co.kr/wiki/ko/doc/unity-alc-sdk-v2-39945604.html) / [for English](https://dev.onestore.co.kr/wiki/en/doc/using-alc-sdk-v2-in-unity-38077673.html) 
 
 ### Caution
 These are required libraries for using check licenses.
@@ -42,5 +42,5 @@ var licenseChecker = new OneStoreAppLicenseCheckerImpl(licenseKey);
 licenseChecker.Initialize(callback);
 ```
 
-***If you want to change older SDK(v1) to SDK(v2), follow [this](https://dev.onestore.co.kr/wiki/ko/doc/unity-alc-sdk-v2-39945598.html)***
+***If you want to change older SDK(v1) to SDK(v2), follow this [for Korean](https://dev.onestore.co.kr/wiki/ko/doc/unity-alc-sdk-v2-39945598.html) / [for English](https://dev.onestore.co.kr/wiki/en/doc/upgrading-from-v1-to-v2-38077671.html)***
 <br/>If you want to download older SDK(v1), click [This Link](https://github.com/ONE-store/applicense_unitySample/releases/tag/release%2Falc-v1.0.0)
